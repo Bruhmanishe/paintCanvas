@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Painter Canvas</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="paint">
+        <div class="paint__controls">
+          <div class="paint__size">
+            <div class="paint__size_line">
+              <div class="paint__size_switch"></div>
+            </div>
+          </div>
+          <div class="paint__color">
+            <button class="paint__color_btn" id="colorBtn"></button>
+            <input type="color" class="paint__color_input" id="colorInput" />
+          </div>
+          <div class="paint__clear">
+            <div class="paint__clear_btn" id="clearBtn"></div>
+          </div>
+          <div class="paint__download">
+            <button class="paint__erase_btn" id="eraseBtn"></button>
+          </div>
+          <div class="paint__download">
+            <button class="paint__download_btn" id="downloadBtn"></button>
+          </div>
+        </div>
+        <div class="paint__canvas"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
